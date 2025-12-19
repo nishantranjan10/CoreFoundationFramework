@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios26.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CoreFoundationFramework
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum HttpError : Swift.Error {
+  case jsonDecoding
+  case noData
+  case nonSuccessStatusCode
+  case serverError
+  case emptyCollection
+  case emptyObject
+  public static func == (a: CoreFoundationFramework.HttpError, b: CoreFoundationFramework.HttpError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class HttpUtility {
+  public static let shared: CoreFoundationFramework.HttpUtility
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func performOperation<T>(request: Foundation.URLRequest, response: T.Type, completionHandler: @escaping (T?, (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func performOperation<T>(request: Foundation.URLRequest, response: T.Type) async throws -> T where T : Swift.Decodable
+  #endif
+  @objc deinit
+}
+public struct SDK {
+  public static func configure(apiKey: Swift.String)
+  public static func doSomeWork()
+}
+public struct SDK1 {
+  public static func doUtilsWork()
+}
+extension CoreFoundationFramework.HttpError : Swift.Equatable {}
+extension CoreFoundationFramework.HttpError : Swift.Hashable {}

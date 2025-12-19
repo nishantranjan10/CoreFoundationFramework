@@ -1,0 +1,813 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CoreFoundationFramework",
+    "printedName": "CoreFoundationFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFoundationFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpError",
+        "printedName": "HttpError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jsonDecoding",
+            "printedName": "jsonDecoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreFoundationFramework.HttpError.Type) -> CoreFoundationFramework.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpError",
+                    "printedName": "CoreFoundationFramework.HttpError",
+                    "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreFoundationFramework.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "CoreFoundationFramework.HttpError",
+                        "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO12jsonDecodingyA2CmF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO12jsonDecodingyA2CmF",
+            "moduleName": "CoreFoundationFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreFoundationFramework.HttpError.Type) -> CoreFoundationFramework.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpError",
+                    "printedName": "CoreFoundationFramework.HttpError",
+                    "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreFoundationFramework.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "CoreFoundationFramework.HttpError",
+                        "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO6noDatayA2CmF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO6noDatayA2CmF",
+            "moduleName": "CoreFoundationFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "nonSuccessStatusCode",
+            "printedName": "nonSuccessStatusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreFoundationFramework.HttpError.Type) -> CoreFoundationFramework.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpError",
+                    "printedName": "CoreFoundationFramework.HttpError",
+                    "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreFoundationFramework.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "CoreFoundationFramework.HttpError",
+                        "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO20nonSuccessStatusCodeyA2CmF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO20nonSuccessStatusCodeyA2CmF",
+            "moduleName": "CoreFoundationFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreFoundationFramework.HttpError.Type) -> CoreFoundationFramework.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpError",
+                    "printedName": "CoreFoundationFramework.HttpError",
+                    "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreFoundationFramework.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "CoreFoundationFramework.HttpError",
+                        "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO06serverE0yA2CmF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO06serverE0yA2CmF",
+            "moduleName": "CoreFoundationFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "emptyCollection",
+            "printedName": "emptyCollection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreFoundationFramework.HttpError.Type) -> CoreFoundationFramework.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpError",
+                    "printedName": "CoreFoundationFramework.HttpError",
+                    "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreFoundationFramework.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "CoreFoundationFramework.HttpError",
+                        "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO15emptyCollectionyA2CmF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO15emptyCollectionyA2CmF",
+            "moduleName": "CoreFoundationFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "emptyObject",
+            "printedName": "emptyObject",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreFoundationFramework.HttpError.Type) -> CoreFoundationFramework.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpError",
+                    "printedName": "CoreFoundationFramework.HttpError",
+                    "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CoreFoundationFramework.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "CoreFoundationFramework.HttpError",
+                        "usr": "s:23CoreFoundationFramework9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO11emptyObjectyA2CmF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO11emptyObjectyA2CmF",
+            "moduleName": "CoreFoundationFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HttpError",
+                "printedName": "CoreFoundationFramework.HttpError",
+                "usr": "s:23CoreFoundationFramework9HttpErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HttpError",
+                "printedName": "CoreFoundationFramework.HttpError",
+                "usr": "s:23CoreFoundationFramework9HttpErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CoreFoundationFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO9hashValueSivp",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO9hashValueSivp",
+            "moduleName": "CoreFoundationFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CoreFoundationFramework9HttpErrorO9hashValueSivg",
+                "mangledName": "$s23CoreFoundationFramework9HttpErrorO9hashValueSivg",
+                "moduleName": "CoreFoundationFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework9HttpErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23CoreFoundationFramework9HttpErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "CoreFoundationFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23CoreFoundationFramework9HttpErrorO",
+        "mangledName": "$s23CoreFoundationFramework9HttpErrorO",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpUtility",
+        "printedName": "HttpUtility",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HttpUtility",
+                "printedName": "CoreFoundationFramework.HttpUtility",
+                "usr": "s:23CoreFoundationFramework11HttpUtilityC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CoreFoundationFramework11HttpUtilityC6sharedACvpZ",
+            "mangledName": "$s23CoreFoundationFramework11HttpUtilityC6sharedACvpZ",
+            "moduleName": "CoreFoundationFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpUtility",
+                    "printedName": "CoreFoundationFramework.HttpUtility",
+                    "usr": "s:23CoreFoundationFramework11HttpUtilityC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CoreFoundationFramework11HttpUtilityC6sharedACvgZ",
+                "mangledName": "$s23CoreFoundationFramework11HttpUtilityC6sharedACvgZ",
+                "moduleName": "CoreFoundationFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HttpUtility",
+                "printedName": "CoreFoundationFramework.HttpUtility",
+                "usr": "s:23CoreFoundationFramework11HttpUtilityC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23CoreFoundationFramework11HttpUtilityCACycfc",
+            "mangledName": "$s23CoreFoundationFramework11HttpUtilityCACycfc",
+            "moduleName": "CoreFoundationFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "performOperation",
+            "printedName": "performOperation(request:response:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(τ_0_0?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "τ_0_0?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework11HttpUtilityC16performOperation7request8response17completionHandlery0B010URLRequestV_xmyxSg_s5Error_pSgtctSeRzlF",
+            "mangledName": "$s23CoreFoundationFramework11HttpUtilityC16performOperation7request8response17completionHandlery0B010URLRequestV_xmyxSg_s5Error_pSgtctSeRzlF",
+            "moduleName": "CoreFoundationFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performOperation",
+            "printedName": "performOperation(request:response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework11HttpUtilityC16performOperation7request8responsex0B010URLRequestV_xmtYaKSeRzlF",
+            "mangledName": "$s23CoreFoundationFramework11HttpUtilityC16performOperation7request8responsex0B010URLRequestV_xmtYaKSeRzlF",
+            "moduleName": "CoreFoundationFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23CoreFoundationFramework11HttpUtilityC",
+        "mangledName": "$s23CoreFoundationFramework11HttpUtilityC",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFoundationFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s23CoreFoundationFramework3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "CoreFoundationFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s23CoreFoundationFramework3SDKV10doSomeWorkyyFZ",
+            "moduleName": "CoreFoundationFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23CoreFoundationFramework3SDKV",
+        "mangledName": "$s23CoreFoundationFramework3SDKV",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK1",
+        "printedName": "SDK1",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "doUtilsWork",
+            "printedName": "doUtilsWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23CoreFoundationFramework4SDK1V11doUtilsWorkyyFZ",
+            "mangledName": "$s23CoreFoundationFramework4SDK1V11doUtilsWorkyyFZ",
+            "moduleName": "CoreFoundationFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23CoreFoundationFramework4SDK1V",
+        "mangledName": "$s23CoreFoundationFramework4SDK1V",
+        "moduleName": "CoreFoundationFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nishant\/Documents\/WorkSpace\/iOS-Framework\/CoreFoundationFramework\/CoreFoundationFramework\/CoreFoundationFramework\/Utility\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 83,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nishant\/Documents\/WorkSpace\/iOS-Framework\/CoreFoundationFramework\/CoreFoundationFramework\/CoreFoundationFramework\/Utility\/SDK.swift",
+      "kind": "Array",
+      "offset": 127,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}
