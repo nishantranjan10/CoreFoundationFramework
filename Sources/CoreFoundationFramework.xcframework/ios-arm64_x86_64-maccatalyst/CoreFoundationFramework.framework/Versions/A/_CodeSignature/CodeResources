@@ -15,14 +15,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFGwBw8lMs4sfeIVS1Ld+D6WQsc8ztewPoLsZWjJZKY=
+			6YOloV+GAwd4ZXhOkL3d4JRLxMl9QNEqA/GMWh1l07c=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRfGo/pAAzl7XYuwmAtQtUDtHrne7vF6wZzyxoTWym8=
+			nuV6bcYmG9Mc5WwuJ0Ary39T+EJ8TjUK/WoGI1BrNJc=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -36,28 +36,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRfGo/pAAzl7XYuwmAtQtUDtHrne7vF6wZzyxoTWym8=
+			nuV6bcYmG9Mc5WwuJ0Ary39T+EJ8TjUK/WoGI1BrNJc=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mngJhovKZOW3LSGL/rDTKuuV7+r1/girX5qscTAr8Qg=
+			rH21kjmVeV8kBgPoLAuZUrLALPLwcM+2El0NnGB8tbw=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFGwBw8lMs4sfeIVS1Ld+D6WQsc8ztewPoLsZWjJZKY=
+			6YOloV+GAwd4ZXhOkL3d4JRLxMl9QNEqA/GMWh1l07c=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pVoB5M+RZpzLD/QJ4L5ZEYqmbMWSfdkPsWtM9x09+GU=
+			sZdb/bj7KJusz4yUjO6TIGRAt9aE6CZPeHJQxTvBmRg=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pVoB5M+RZpzLD/QJ4L5ZEYqmbMWSfdkPsWtM9x09+GU=
+			sZdb/bj7KJusz4yUjO6TIGRAt9aE6CZPeHJQxTvBmRg=
 			</data>
 		</dict>
 		<key>Modules/CoreFoundationFramework.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WFAOOpmAgRboqVwKu+hfaq5aGLyGCmGmN1G+u07dMOY=
+			4AIW85jGP9m0tsnVqFcU89r34+glyhgjcGBcfHC44zY=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
